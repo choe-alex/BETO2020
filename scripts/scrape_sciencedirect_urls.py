@@ -20,7 +20,11 @@ def scrape_page(driver):
     This method finds all hrefs on webpage
     """
 
+<<<<<<< HEAD
     elems = driver.find_elements_by_xpath("//a[@href]") # finds hyperlinks that contain hrefs and stores in variable, "elems"
+=======
+    elems = driver.find_elements_by_xpath("//a[@href]")
+>>>>>>> 786ddeb98fa0f70a292a2676c370d7d38be2f491
     return elems
 
 
